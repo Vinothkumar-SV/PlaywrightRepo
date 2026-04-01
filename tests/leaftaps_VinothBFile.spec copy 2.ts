@@ -22,4 +22,5 @@ test('has title', async ({ page }) => {
 
 test('verify URL', async ({ page }) => {
     await expect(page).toHaveURL(/opentaps/);
+    console.log("vinoth");
 });
